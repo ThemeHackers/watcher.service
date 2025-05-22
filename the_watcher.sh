@@ -8,7 +8,7 @@ THRESHOLD=10
 CHECK_INTERVAL=10
 DISCORD_USERNAME="the_watcher.sh"
 DISCORD_AVATAR="https://ucarecdn.com/a9598b0a-704e-4dd5-b37a-91e515936b77/-/preview/500x500/"
-WEBHOOK_URL="https://discord.com/api/webhooks/1374735695968731297/aqHirh8HFwHmKAKexEAncMj3pwW9jDa2pgeBw47GS7jmYKqiiRCQgem0SxlMhCRs-pD2"
+WEBHOOK_URL=""
 TEST_MODE=0
 
 if [ "$1" = "--test" ]; then
