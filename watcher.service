@@ -1,0 +1,17 @@
+[Unit]
+Description=Watcher SSH & xFreeRDP Log Monitoring Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/the_watcher.sh
+Restart=always
+RestartSec=10
+User=root
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=watcher
+
+[Install]
+WantedBy=multi-user.target
+
